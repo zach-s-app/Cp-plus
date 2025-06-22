@@ -1,0 +1,22 @@
+echo '# flags -nd = no remove -debug = debug placeholders -norun = can you no read it says no run
+echo 1 | python3 compiler.py test.code
+echo 1 | python3 compiler.py test.code -debug
+#how to "debug"
+bash debugtools.sh test_binary
+#how to get nrom hex dump
+hexdump -c test_binary
+#how to make it in plain text and make a hello world code work
+python3 compiler.py hello.code > out.txt
+#clean it from anythig that is not the output aka the debug stuff on what it is doing
+#Compiling with: gcc -O2 /home/zach/Downloads/codes-programs/multi-in-one/etrolang-c+/prog.c /home/zach/Downloads/codes-programs/multi-in-one/etrolang-c+/langlib.c -o /home/zach/Downloads/codes-programs/multi-in-one/etrolang-c+/hello_binary
+#Compilation succeeded.
+#Running /home/zach/Downloads/codes-programs/multi-in-one/etrolang-c+/hello_binary :
+#then do
+python3 ascii-ascii.py out.txt
+#then you should see a output the same as this cmd
+echo "Hello World!"
+#this code lang or should i say estrolang is numaric and not made for debug just fun
+#made by zach
+#this is the end
+exit
+'

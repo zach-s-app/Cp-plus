@@ -1,0 +1,12 @@
+VAR x
+INPUT x
+VAR y
+SET y 10
+MATH y = y + x
+PRINT y
+IF y > 10
+PRINT 1
+ELSE
+PRINT 0
+ENDIF
+

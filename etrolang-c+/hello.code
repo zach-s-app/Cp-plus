@@ -1,0 +1,38 @@
+VAR msg0
+SET msg0 72
+VAR msg1
+SET msg1 101
+VAR msg2
+SET msg2 108
+VAR msg3
+SET msg3 108
+VAR msg4
+SET msg4 111
+VAR msg5
+SET msg5 32
+VAR msg6
+SET msg6 87
+VAR msg7
+SET msg7 111
+VAR msg8
+SET msg8 114
+VAR msg9
+SET msg9 108
+VAR msg10
+SET msg10 100
+VAR msg11
+SET msg11 33
+
+PRINT msg0
+PRINT msg1
+PRINT msg2
+PRINT msg3
+PRINT msg4
+PRINT msg5
+PRINT msg6
+PRINT msg7
+PRINT msg8
+PRINT msg9
+PRINT msg10
+PRINT msg11
+
